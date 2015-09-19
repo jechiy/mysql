@@ -18,7 +18,7 @@ ADD import_sql.sh /import_sql.sh
 ADD run.sh /run.sh
 
 ENV MYSQL_USER=admin \
-    MYSQL_PASS=**Random** \
+    MYSQL_PASS=a12345 \
     ON_CREATE_DB=**False** \
     REPLICATION_MASTER=**False** \
     REPLICATION_SLAVE=**False** \
